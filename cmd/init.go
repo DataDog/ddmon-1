@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/pietdaniel/ddmon/lib"
+	"github.com/DataDog/ddmonitor/lib"
 
 	"github.com/spf13/cobra"
 )

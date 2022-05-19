@@ -16,10 +16,10 @@ Note: This project is under active development and is not intended to be used in
 
 ```sh
 # Install the latest version
-go get github.com/pietdaniel/ddmon
+go get github.com/DataDog/ddmonitor
 
 # Install a specific version
-GO111MODULE=on go get github.com/pietdaniel/ddmon@v0.0.5
+GO111MODULE=on go get github.com/DataDog/ddmonitor@v0.0.5
 ```
 
 ## Usage
