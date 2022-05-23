@@ -1,4 +1,4 @@
-module github.com/pietdaniel/ddmon
+module github.com/DataDog/ddmonitor
 
 go 1.15
 

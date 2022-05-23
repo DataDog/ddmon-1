@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pietdaniel/ddmon/cmd"
+import "github.com/DataDog/ddmonitor/cmd"
 
 func main() {
 	cmd.Execute()
