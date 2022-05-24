@@ -16,10 +16,16 @@ Note: This project is under active development and is not intended to be used in
 
 ```sh
 # Install the latest version
-go get github.com/DataDog/ddmonitor
+go install github.com/DataDog/ddmonitor@latest
 
 # Install a specific version
-GO111MODULE=on go get github.com/DataDog/ddmonitor@v0.0.5
+go install github.com/DataDog/ddmonitor@v0.0.5
+```
+
+Make a symlink to have the `ddmon` binary
+
+```sh
+sudo ln -s "$(which ddmonitor)" /usr/local/bin/ddmon
 ```
 
 ## Usage
